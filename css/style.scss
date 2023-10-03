@@ -99,6 +99,11 @@ a {
         padding: 12px 48px;
     }
 
+    @media (max-width: 500px) {
+
+        padding: 12px 44px;
+    }
+
     i {
 
         margin-left: 0.3rem;
@@ -514,6 +519,7 @@ a {
                 justify-content: space-around;
                 margin: 0;
                 gap: 16px;
+                margin-left: 16px;
                    
             }
     
@@ -616,6 +622,7 @@ a {
                 display: flex;
                 justify-content: space-around;
                 margin: 0;
+                margin-left: 16px;
                 
             }
     
@@ -836,8 +843,9 @@ a {
 
     @media (max-width: 1000px) {
 
-        margin-bottom: 2rem;
+        margin-bottom: 0px;
     }
+
 
     .container {
         display:flex;
@@ -849,6 +857,11 @@ a {
         @media (max-width: 1000px) {
             
             justify-content: center;
+        }
+
+        @media (max-width: 770px) {
+
+            padding-bottom: 0px;
         }
 
         
@@ -974,6 +987,13 @@ a {
                     padding-bottom: 1rem;
                     color: black;
                     margin-right: 1.4rem;
+
+                    @media (max-width: 770px) {
+
+                        padding: 3px 14px;
+                        text-align: center;
+                        
+                    }
     
                     &:hover {
     
@@ -995,6 +1015,11 @@ a {
                     padding: 8px 16px;
                     position: relative;
 
+                    @media (max-width: 770px) {
+
+                        padding: 4px 8px;
+                    }
+
                     &:hover {
 
                         i {
@@ -1002,6 +1027,7 @@ a {
                             color: rgb(255, 4, 37);
                             font-weight: 700;
                             transition: color 0.5s ease, font-weight 0.3s ease-in-out;
+                            
                         }
                     }
 
@@ -1024,6 +1050,12 @@ a {
                         transform: scaleX(0);
                         transform-origin: top left;
 
+                        @media (max-width: 770px) {
+
+                            transition: none;
+                            content: none;
+                        }
+
                     }
                       
                     &:hover:before  {
@@ -1031,6 +1063,11 @@ a {
                         
                         color: black;
                         transform: scaleX(1);
+
+                        @media (max-width: 770px) {
+
+                            transition: none;
+                        }
                         
                     }
                     
@@ -1077,9 +1114,10 @@ a {
     .ourservices {
         padding-bottom: 5rem;
 
-        @media (max-width: 500px) {
+        @media (max-width: 770px) {
 
             padding-bottom: 0;
+            padding: 0;
         }
 
         .our {
@@ -1123,8 +1161,12 @@ a {
                 grid-template-columns: 1fr 1fr;
                 margin-right: 16px;
                 
+            }
 
+            @media (max-width: 770px) {
 
+                gap: 0;
+                row-gap: 16px;
             }
 
             a {
@@ -1160,6 +1202,11 @@ a {
                 &:hover:before {
 
                     transform: scaleX(1);
+
+                    @media (max-width: 770px) {
+
+                        transform: scale(0);
+                    }
                 }
 
                 &:hover {
@@ -1201,9 +1248,7 @@ a {
 
                     @media (max-width: 770px) {
 
-                        padding: 1rem;
-                        margin-left: 3rem;
-                        width: 50%;
+                        display:none;
 
                         
                         
@@ -2369,7 +2414,7 @@ footer {
         .mobile-meny {
 
             font-size: 32px;
-            margin-right: 3rem;
+            margin-right: 1rem;
 
             @media (min-width: 1000px) {
 
@@ -2519,13 +2564,18 @@ footer {
         padding-top: 106px;
         padding-bottom: 92px;
 
+        @media (max-width: 500px) {
+
+            padding-bottom: 10px;
+        }
+
         div {
             display:flex;
             justify-content: center;
             align-items: center;
             
             a {
-                margin-right: 16px;
+                padding-left: 12px;
                 position: relative;
                 text-decoration: none;
 
@@ -2576,6 +2626,11 @@ footer {
 
     .container {
 
+        @media (max-width: 500px) {
+
+            padding: 0;
+        }
+
         .contact {
 
             display:flex;
@@ -2612,6 +2667,11 @@ footer {
 
                     padding: 16px 60px;
                 }
+
+                @media (max-width: 500px) {
+
+                    padding: 4px 30px;
+                }
                 
                 
                 i   {
@@ -2631,6 +2691,14 @@ footer {
                     @media (max-width: 1000px) {
 
                         padding: 8px;
+                    }
+
+                    @media (max-width: 500px) {
+
+                        padding: 0;
+                        margin:0;
+                        align-self: center;
+                        margin-right: 40px;
                     }
                 }
 
