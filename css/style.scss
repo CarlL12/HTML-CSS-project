@@ -461,14 +461,14 @@ a {
     border-color: #EBEBEB;
     border-style: solid;
     padding-top: 5rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
     padding-bottom: 5rem;
     padding-right: 8rem;
     width: 80%;
     margin-right: auto;
     margin-left:auto;
 
-    @media (max-width: 770px) {
+    @media (max-width: 790px) {
 
         margin: 0;
         padding:0;
@@ -488,6 +488,8 @@ a {
         margin-right:auto;
         margin-left:auto;
         margin-bottom: 5rem;
+        padding-top: 40px;
+        padding-left: 32px;
     }
     
     .container {
@@ -727,6 +729,8 @@ a {
         }
     
         .learnmore {
+
+            margin-right: 24px;
     
 
             div {
@@ -778,11 +782,11 @@ a {
                     padding-left: 11rem;
                     padding-right: 11rem;
 
-                    @media (max-width: 500px) {
+                    @media (max-width: 800px) {
 
                         padding: 1rem;
-                        padding-left: 4rem;
-                        padding-right: 4rem;
+                        padding-left: 2rem;
+                        padding-right: 2rem;
                     }
 
                     @media (max-width: 1420px) {
